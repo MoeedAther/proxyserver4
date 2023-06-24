@@ -12,7 +12,7 @@ let exolixerror;
 
 
 const PORT = process.env.PORT || 3000;
-const host = "127.0.0.1";
+// const host = "127.0.0.1";
 
 const app = express();
 
@@ -582,7 +582,7 @@ app.post("/Simpleswap/transaction", async (req, res) => {
   // res.send(response)
 });
 
-app.listen(PORT, host,() => {
+app.listen(PORT,() => {
   console.log("Server listening at " + PORT);
 });
 

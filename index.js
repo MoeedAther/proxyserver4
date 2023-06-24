@@ -582,7 +582,7 @@ app.post("/Simpleswap/transaction", async (req, res) => {
   // res.send(response)
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, host,() => {
   console.log("Server listening at " + PORT);
 });
 
